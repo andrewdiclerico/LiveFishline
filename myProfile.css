@@ -1,0 +1,17 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    
+}
+body{
+    
+    color: #1a202c;
+    background-color: #EAE7E7;    
+}
+
+.tank{
+    height: 400px;
+    width: 895px;
+}
+
