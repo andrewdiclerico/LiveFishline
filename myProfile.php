@@ -5,7 +5,7 @@
 include("session.php");
 require('db.php');
 include __DIR__ . '/include/functions.php';
-include_once __DIR__ . "../models/models_fish.php"; 
+include_once __DIR__ . "/models/models_fish.php"; 
 //all the field names
 
 
