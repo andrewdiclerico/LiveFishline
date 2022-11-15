@@ -86,7 +86,7 @@ if(isPostRequest()){
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Righteous&family=Roboto&family=Rock+Salt&family=Teko&display=swap" rel="stylesheet">
-    <link rel="icon" href="Images/catch.png">
+    <link rel="icon" href="images/catch.png">
 
     <title>My Profile</title>
 
@@ -257,7 +257,7 @@ if(isPostRequest()){
         <div class="nav-items">
             <ul class="navbar-nav">
                 <li class="login-item">
-                    <a class="nav-link-login" href="recentlycaught.php"><i class="fa-solid fa-sailboat"></i> Recently Caught</a>
+                    <a class="nav-link-login" href="recentlyCaught.php"><i class="fa-solid fa-sailboat"></i> Recently Caught</a>
                 </li>
             </ul>
         </div>
@@ -271,7 +271,7 @@ if(isPostRequest()){
         <h1 class="center">Welcome <?php echo $row['name']; ?></h1> 
         <div>
             <?php
-                echo "<img src='/SE266/Final Fish/Images/" .  $row['userphoto'] . "' style='width: 250px; border-radius:100%;'></img>";
+                echo "<img src='/livefishline/images/" .  $row['userphoto'] . "' style='width: 250px; border-radius:100%;'></img>";
             ?>
         </div>
 
@@ -298,7 +298,7 @@ if(isPostRequest()){
         <div style="height:35px; width:65; float:left;">
             <label>Add Fish</label>
             <br>
-            <a href="addfish.php?username=<?php echo $row['username'] ?>"><button><img src="Images/icon.png" style="padding:5%; height:35px; border-radius:100% width:35px;"></img></button></a>
+            <a href="addFish.php?username=<?php echo $row['username'] ?>"><button><img src="images/icon.png" style="padding:5%; height:35px; border-radius:100% width:35px;"></img></button></a>
         </div>
         
         <div style="height:35px; width:45; float:right;">
@@ -309,7 +309,7 @@ if(isPostRequest()){
         <br>
         <br>
 
-        <a href="profile_uploads.php?action=update&username=<?php echo $row['username']; ?>"><u>Edit Profile</u></a> | 
+        <a href="profileUploads.php?action=update&username=<?php echo $row['username']; ?>"><u>Edit Profile</u></a> | 
         <a href="upload.php?action=update&username=<?php echo $row['username']; ?>"><u>Edit Picture</u></a>
 
         <br />
