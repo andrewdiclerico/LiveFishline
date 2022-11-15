@@ -1,6 +1,6 @@
 <?php
 
-include_once __DIR__ . '/models_fish.php';
+include_once __DIR__ . '/modelsFish.php';
 
 class FishSearch extends AddFish{
 
