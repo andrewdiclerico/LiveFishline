@@ -225,7 +225,7 @@
                 $sql = "SELECT username FROM users;";
                 $result = mysqli_query($con, $sql);
                 $row = mysqli_fetch_assoc($result);
-                $sql = "SELECT username, species, fishlength, fishweight, locations, released, notes, images FROM localcapstone_sum22.addfish WHERE species = 'bass'";
+                $sql = "SELECT username, species, fishlength, fishweight, locations, released, notes, images FROM addfish WHERE species = 'bass'";
                 $res = mysqli_query($con, $sql);
                 $rel = "";
                 if ($row['released'] = 1){
