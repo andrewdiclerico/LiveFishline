@@ -227,9 +227,9 @@
         
             <?php
                 include_once __DIR__ . '../db.php';
-                $sql = "SELECT * FROM addfish;";
+                $sql = "SELECT username FROM users;";
                 $result = mysqli_query($con, $sql);
-                $row = mysqli_fetch_assoc($result);
+                $rom = mysqli_fetch_assoc($result);
                 $rel = "";
                 if ($row['released'] = 1){
                     $rel = "Yes";
