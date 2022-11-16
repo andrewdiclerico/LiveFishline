@@ -225,7 +225,7 @@
                 $sql = "SELECT username FROM users;";
                 $result = mysqli_query($con, $sql);
                 $row = mysqli_fetch_assoc($result);
-                $sql = "SELECT username, species, fishlength, fishweight, locations, released, notes, images FROM fishline.addfish WHERE species = 'Bass'";
+                $sql = "SELECT * FROM fishline.addfish WHERE species = 'Bass'";
                 $res = mysqli_query($con, $sql);
                 $rel = "";
                 if ($row['released'] = 1){
