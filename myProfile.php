@@ -248,7 +248,7 @@ if(isPostRequest()){
     <nav class="sticky navbar navbar-expand-lg">
         <div class = "logo">  <!--Logo Div--> 
             <i class="fa-solid fa-fish-fins"></i>
-            <a class="navbar-brand" href="home.php">FishLine.com</a> <!--Title for Nav-->
+            <a class="navbar-brand" href="index.php">FishLine.com</a> <!--Title for Nav-->
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
             </button>

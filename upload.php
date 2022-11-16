@@ -136,7 +136,7 @@ if (isset ($_FILES['fileToUpload']))
     <nav class="sticky navbar navbar-expand-lg">
         <div class = "logo">  <!--Logo Div--> 
             <i class="fa-solid fa-fish-fins"></i>
-            <a class="navbar-brand" href="home.php">FishLine.com</a> <!--Title for Nav-->
+            <a class="navbar-brand" href="index.php">FishLine.com</a> <!--Title for Nav-->
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
             </button>
@@ -145,8 +145,8 @@ if (isset ($_FILES['fileToUpload']))
         <div class="nav-items">
             <ul class="navbar-nav">
                 <li class="login-item">
-                    <a class="nav-link-login" href="recentlycaught.php"><i class="fa-solid fa-sailboat"></i> Recently Caught</a>
-                    <a class="nav-link-login" href="myprofile.php"><i class="fa-solid fa-user-plus"></i> Profile</a>
+                    <a class="nav-link-login" href="recentlyCaught.php"><i class="fa-solid fa-sailboat"></i> Recently Caught</a>
+                    <a class="nav-link-login" href="myProfile.php"><i class="fa-solid fa-user-plus"></i> Profile</a>
                 </li>
             </ul>
         </div>
