@@ -215,15 +215,24 @@
                 $res = mysqli_query($con, $sql);
                 $rel = "";
 
-                if ($row['released'] = 1){
-                    $rel = "Yes";
-                }
-                else{
-                    $rel = "No";
-                }
+                
+                
+                
+                
+                
+                
 
                 while ($rom = mysqli_fetch_assoc($res))
                 {
+
+
+                  if ($rom['released'] = 1){
+                      $rel = "Yes";
+                  }
+                  else{
+                      $rel = "No";
+                  }
+
                     echo
                     "<div class='grid-container' style='background-color:white;'>" .
 
