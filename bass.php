@@ -178,7 +178,7 @@
             <div class="col" style="text-align:center; float:left; padding-top:15px;">
 
                 <!-- Large Mouth Bass Image | https://www.maine.gov/ifw/fish-wildlife/fisheries/species-information/largemouth-bass.html -->
-                <img src="images\LargeMouthBass.png" alt="largemouth bass" width="300" height="150"></img>
+                <img src="../images/LargeMouthBass.png" alt="largemouth bass" width="300" height="150"></img>
                 
                 <br />
                 <br />
@@ -199,7 +199,7 @@
 
             <div class="col" style="float:right; ">
                 <!-- Large Mouth Bass Map Image | https://usa.fishermap.org/fish-map/rhode-island-fishing/largemouth-bass/ -->
-                <img src="Images\LargeMouthBassMap.png" alt="map of bass" width="250" height="98%"></img>
+                <img src="../images/LargeMouthBassMap.png" alt="map of bass" width="250" height="98%"></img>
             </div>
 
         </div>
