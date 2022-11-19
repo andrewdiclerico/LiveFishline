@@ -178,7 +178,7 @@
             <div class="col" style="text-align:center; float:left; padding-top:15px;">
 
                 <!-- Large Mouth Bass Image | https://www.maine.gov/ifw/fish-wildlife/fisheries/species-information/largemouth-bass.html -->
-                <img src="Images\LargeMouthBass.png" alt="largemouth bass" width="300" height="150"></img>
+                <img src="images\LargeMouthBass.png" alt="largemouth bass" width="300" height="150"></img>
                 
                 <br />
                 <br />
@@ -244,7 +244,7 @@
                                 </div>
                             </div>" . 
                             "<div class='item2' style='background-color:#EAE7E7;'>" . 
-                                "<div>" . "<img src='/se266/Final Fish/Images/" . $rom['images'] . "' style='width: 150px; height:100px; padding-bottom:10%;'>" . "</img></div>
+                                "<div>" . "<img src='images/" . $rom['images'] . "' style='width: 150px; height:100px; padding-bottom:10%;'>" . "</img></div>
                             </div>" . 
                             "<div class='item3' style='background-color:#EAE7E7;'>
                                 <div style='text-align:left;'>

@@ -163,7 +163,7 @@
             <div class="col" style="text-align:center; float:left; padding-top:15px;">
 
                 <!-- River Brook Trout Image | https://www.ncwildlife.org/Learning/Species/Fish/Brook-Trout -->
-                <img src="Images\BrookTrout.jpg" alt="River Brook Trout" width="300" height="150" style="float:left; padding-bottom:5px;"></img>
+                <img src="images\BrookTrout.jpg" alt="River Brook Trout" width="300" height="150" style="float:left; padding-bottom:5px;"></img>
                 <br />
                 <br />
 
@@ -188,7 +188,7 @@
 
             <!-- River Brook Trout Map Image | https://www.arcgis.com/home/webmap/viewer.html?webmap=2d544eb50d244ecfb0e4c9581f59d89c&extent=-72.2256,41.0479,-70.5283,42.3186 -->
             <div class="col" style="text-align:center; float:right; padding-top:5px;">
-                <img src="Images\TroutBrookMap.png" alt="map of trout" width="250" height="350"></img>
+                <img src="images\TroutBrookMap.png" alt="map of trout" width="250" height="350"></img>
             </div>
 
         </div>
@@ -243,7 +243,7 @@
                         </div>" . 
 
                         "<div class='item2' style='background-color:#EAE7E7; padding-bottom:10px;'>" . 
-                            "<div>" . "<img src='/se266/Final Fish/Images/" . $rom['images'] . "' style='width: 150px; height:100px; padding-bottom:10%;'>" . "</img></div>
+                            "<div>" . "<img src='images/" . $rom['images'] . "' style='width: 150px; height:100px; padding-bottom:10%;'>" . "</img></div>
                         </div>" . 
 
                         "<div class='item3' style='background-color:#EAE7E7;'>
