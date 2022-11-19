@@ -313,11 +313,11 @@
 
         <div class = "fish">
           <div>
-          <a href="bass.php"><img src="../Final Fish/Images/LargeMouthBass.png" width="400" 
+          <a href="bass.php"><img src="images/LargeMouthBass.png" width="400" 
           height="200"/></a>
           </div>
           <div>
-          <a href="trout.php"><img src="../Final Fish/Images/BrookTrout.jpg" width="400" 
+          <a href="trout.php"><img src="images/BrookTrout.jpg" width="400" 
           height="200" /></a>
           </div>
           </div>
