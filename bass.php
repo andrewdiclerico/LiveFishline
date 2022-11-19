@@ -199,7 +199,7 @@
 
             <div class="col" style="float:right; ">
                 <!-- Large Mouth Bass Map Image | https://usa.fishermap.org/fish-map/rhode-island-fishing/largemouth-bass/ -->
-                <img src="../images/LargeMouthBassMap.png" alt="map of bass" width="250" height="98%"></img>
+                <img src="/images/LargeMouthBassMap.png" alt="map of bass" width="250" height="98%"></img>
             </div>
 
         </div>
