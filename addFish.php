@@ -146,7 +146,7 @@
             $id = filter_input(INPUT_GET, 'id');
 
             //set insert statement
-            $query = "INSERT into localcapstone_sum22.addfish (username, species, fishlength, fishweight, locations, released, notes, images) VALUES ('$username', '$fishSpecies', '$fishLength', '$fishWeight', '$fishLocation', '$fishReleased', '$fishNotes', '$fishImages')";
+            $query = "INSERT into addfish (username, species, fishlength, fishweight, locations, released, notes, images) VALUES ('$username', '$fishSpecies', '$fishLength', '$fishWeight', '$fishLocation', '$fishReleased', '$fishNotes', '$fishImages')";
 
             //execute sql statement
             $result = mysqli_query($con, $query);
