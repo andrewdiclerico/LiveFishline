@@ -128,7 +128,7 @@
             
 
             $tempName = $_FILES['fileToUpload']['tmp_name'];
-            $path = getcwd() .DIRECTORY_SEPARATOR . 'Images';
+            $path = getcwd() .DIRECTORY_SEPARATOR . 'images';
             $new_name = $path . DIRECTORY_SEPARATOR . $_FILES['fileToUpload']['name'];
             move_uploaded_file($tempName, $new_name);
 
