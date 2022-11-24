@@ -151,7 +151,7 @@
             $id = filter_input(INPUT_GET, 'id');
 
             //set insert statement
-            $query = "UPDATE localcapstone_sum22.addfish SET species = '$fishSpecies', fishlength = '$fishLength', fishweight = '$fishWeight', locations = '$fishLocation', released = '$fishReleased', notes = '$fishNotes', images = '$fishImages' WHERE fishID = '$fishID';";
+            $query = "UPDATE addfish SET species = '$fishSpecies', fishlength = '$fishLength', fishweight = '$fishWeight', locations = '$fishLocation', released = '$fishReleased', notes = '$fishNotes', images = '$fishImages' WHERE fishID = '$fishID';";
 
             //execute sql statement
             $result = mysqli_query($con, $query);

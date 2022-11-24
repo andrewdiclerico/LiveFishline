@@ -271,7 +271,7 @@ if(isPostRequest()){
         <h1 class="center">Welcome <?php echo $row['name']; ?></h1> 
         <div>
             <?php
-                echo "<img src='/livefishline/images/" .  $row['userphoto'] . "' style='width: 250px; border-radius:100%;'></img>";
+                echo "<img src='/images/" .  $row['userphoto'] . "' style='width: 250px; border-radius:100%;'></img>";
             ?>
         </div>
 
@@ -330,7 +330,7 @@ if(isPostRequest()){
             //$sql = "SELECT username FROM users WHERE username = '$usersProfile'";
             //$result = mysqli_query($con, $sql);
             //$row = mysqli_fetch_assoc($result);
-            $sql = "SELECT fishID, username, species, fishlength, fishweight, locations, released, notes, images FROM localcapstone_sum22.addfish WHERE username = '$usersProfile' ORDER BY fishID DESC";
+            $sql = "SELECT fishID, username, species, fishlength, fishweight, locations, released, notes, images FROM addfish WHERE username = '$usersProfile' ORDER BY fishID DESC";
             $res = mysqli_query($con, $sql);
             $rel = "";
             if ($row['released'] = 1){
