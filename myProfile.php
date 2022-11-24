@@ -271,7 +271,7 @@ if(isPostRequest()){
         <h1 class="center">Welcome <?php echo $row['name']; ?></h1> 
         <div>
             <?php
-                echo "<img src='/images/" .  $row['userphoto'] . "' style='width: 250px; border-radius:100%;'></img>";
+                echo "<img src='../images/" .  $row['userphoto'] . "' style='width: 250px; border-radius:100%;'></img>";
             ?>
         </div>
 
@@ -304,7 +304,7 @@ if(isPostRequest()){
         <div style="height:35px; width:45; float:right;">
             <label>Logout</label>
             <br>
-            <a href="dashboard.php" style="margin-bottom:15px;"><button><img src="Images/icon.png" style="height:35px; width:35px;"></img></button></a>
+            <a href="dashboard.php" style="margin-bottom:15px;"><button><img src="images/icon.png" style="height:35px; width:35px;"></img></button></a>
         </div>
         <br>
         <br>
@@ -349,7 +349,7 @@ if(isPostRequest()){
                         </div>
                     </div>" . 
                     "<div class='item2' style='padding-bottom:15px; background-color:#EAE7E7;'>" . 
-                        "<div>" . "<img style='width:180px; height:80px;' src='/se266/Final Fish/Images/" . $rom['images'] . "' style='width: 180px;'></div>
+                        "<div>" . "<img style='width:180px; height:80px;' src='images/" . $rom['images'] . "' style='width: 180px;'></div>
                     </div>" . 
                     "<div class='item3' style='background-color:#EAE7E7;'>
                         <div style='text-align:left;'>
