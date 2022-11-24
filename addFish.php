@@ -17,7 +17,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Righteous&family=Roboto&family=Rock+Salt&family=Teko&display=swap" rel="stylesheet">
-    <link rel="icon" href="Images/catch.png">
+    <link rel="icon" href="images/catch.png">
 
 </head>
 <style>
@@ -119,7 +119,7 @@
         //include databse connection file (db.php)
         include_once __DIR__ . '/db.php';
 
-        define ("UPLOAD_DIRECTORY", "Images");
+        define ("UPLOAD_DIRECTORY", "images");
 
         // When form submitted, insert values into the database.
         if (isset($_REQUEST['species'])) {
