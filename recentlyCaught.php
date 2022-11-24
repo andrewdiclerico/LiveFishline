@@ -247,7 +247,7 @@
                             </div>
                         </div>" . 
                         "<div class='item2' style='padding-bottom:10px; background-color:#EAE7E7;'>" . 
-                            "<div>" . "<img style='width:180px; height:80px;' src='/se266/Final Fish/Images/" . $row['images'] . "' style='width: 180px;'>" . "</img></div>
+                            "<div>" . "<img style='width:180px; height:80px;' src='images/" . $row['images'] . "' style='width: 180px;'>" . "</img></div>
                         </div>" . 
                         "<div class='item3' style='background-color:#EAE7E7;'>
                             <div style='text-align:left;'>
