@@ -12,7 +12,7 @@ include("session.php");
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Righteous&family=Roboto&family=Rock+Salt&family=Teko&display=swap" rel="stylesheet">
-<link rel="icon" href="Images/catch.png">
+<link rel="icon" href="images/catch.png">
 
 </head>
 <body style="background-color:#3E4144">
