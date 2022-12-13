@@ -3,7 +3,7 @@
 $username = filter_input(INPUT_GET, 'username');
 $new_name = "";
 
-include('../db.php');
+include('db.php');
 
 if (isset ($_FILES['fileToUpload'])) 
     {
