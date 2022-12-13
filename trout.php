@@ -15,7 +15,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Righteous&family=Roboto&family=Rock+Salt&family=Teko&display=swap" rel="stylesheet">
-    <link rel="icon" href="Images/catch.png">
+    <link rel="icon" href="images/catch.png">
     
 </head>
 <style>
@@ -207,24 +207,17 @@
         
         <div style="background-color:white; margin-left:20%; margin-right:20%;">
             <?php 
-                include_once __DIR__ . '../db.php';
+                require 'db.php';
+
                 $sql = "SELECT username FROM users;";
                 $result = mysqli_query($con, $sql);
                 $row = mysqli_fetch_assoc($result);
-                $sql = "SELECT username, species, fishlength, fishweight, locations, released, notes, images FROM addfish WHERE species = 'trout'";
+                $sql = "SELECT username, species, fishlength, fishweight, locations, released, notes, images FROM addfish WHERE species = 'Trout'";
                 $res = mysqli_query($con, $sql);
-                $rel = "";
-
-                
-                
-                
-                
-                
-                
+                $rel = "";                
 
                 while ($rom = mysqli_fetch_assoc($res))
                 {
-
 
                   if ($rom['released'] = 1){
                       $rel = "Yes";
