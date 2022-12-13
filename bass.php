@@ -259,7 +259,7 @@
                             "</div>" .
                             "<div class='item5' style='background-color:#EAE7E7; float:left;'>" .
                                 "<div style='width:150px; text-align:left'>" . 
-                                    "<b>Username</b>: " . $row['username'] . "<br />" .
+                                    "<b>Username</b>: " . $rom['username'] . "<br />" .
                                     "<b>Comments</b>: " . $rom['notes'] . 
                                 "</div>" .
                             "</div>" .
