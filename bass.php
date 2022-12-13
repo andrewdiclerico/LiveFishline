@@ -221,7 +221,7 @@
 
             <?php 
 
-                include_once __DIR__ . 'db.php';
+                include_once __DIR__ . '../db.php';
                 
                 $sql = "SELECT * FROM fishline.addfish WHERE species = 'Bass'";
                 $res = mysqli_query($con, $sql);
