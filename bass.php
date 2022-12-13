@@ -221,10 +221,8 @@
 
             <?php 
 
-                include_once __DIR__ . '../db.php';
-                $sql = "SELECT username FROM users;";
-                $result = mysqli_query($con, $sql);
-                $row = mysqli_fetch_assoc($result);
+                include_once __DIR__ . 'db.php';
+                
                 $sql = "SELECT * FROM fishline.addfish WHERE species = 'Bass'";
                 $res = mysqli_query($con, $sql);
                 $rel = "";
