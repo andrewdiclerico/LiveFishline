@@ -222,6 +222,8 @@
             <?php 
 
                 include_once __DIR__ . '../db.php';
+                $configFile = __DIR__ . '/models/dbconfig.ini';
+
                 
                 $sql = "SELECT * FROM addfish WHERE species = 'Bass'";
                 $res = mysqli_query($con, $sql);
