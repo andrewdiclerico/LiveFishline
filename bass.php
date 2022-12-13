@@ -222,15 +222,9 @@
             <?php 
 
                 include_once __DIR__ . '../db.php';
-                $configFile = __DIR__ . '/models/dbconfig.ini';
-
-                $fish = [];
-
-                $fish = $addfishDatabase->getspecies();
-
-
-                
-                $sql = "SELECT * FROM addfish WHERE species = 'Bass'";
+                $configFile = __DIR__ . '..//models/dbconfig.ini';
+                                
+                $sql = "SELECT * FROM fishline.addfish WHERE species = 'Bass'";
                 $res = mysqli_query($con, $sql);
                 $rel = "";
                 // if ($row['released'] = 1){
@@ -239,7 +233,7 @@
                 // else{
                     // $rel = "No";
                 // }
-                foreach ($fish as $rom)
+                while ($rom = mysqli_fetch_assoc($res))
                 {
                     echo
                         "<div class='grid-container' style='background-color:white;'>" .
