@@ -271,7 +271,7 @@ if(isPostRequest()){
         <h1 class="center">Welcome <?php echo $row['name']; ?></h1> 
         <div>
             <?php
-                echo "<img src='../images/" .  $row['userphoto'] . "' style='width: 250px; border-radius:100%;'></img>";
+                echo "<img src='images/" .  $row['userphoto'] . "' style='width: 250px; border-radius:100%;'></img>";
             ?>
         </div>
 
