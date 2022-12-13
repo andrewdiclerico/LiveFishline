@@ -1,11 +1,11 @@
 <?php
     // Enter your host name, database username, password, and database name.
     // If you have not set database password on localhost then set empty.
-    $host="fishline.c2rppycstunp.us-east-1.rds.amazonaws.com";
+    $host="adic.c2rppycstunp.us-east-1.rds.amazonaws.com";
     $port=3306;
     $socket="";
     $user="admin";
-    $password="FishL!ne";
+    $password="andrewdiclerico";
     $dbname="fishline";
 
     $con = new mysqli($host, $user, $password, $dbname, $port, $socket)

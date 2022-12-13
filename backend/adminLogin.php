@@ -108,7 +108,7 @@
         <div class="nav-items">
             <ul class="navbar-nav">
                 <li class="login-item">
-                    <a class="nav-link-login" href="../recentlycaught.php"><i class="fa-solid fa-sailboat"></i> Recently Caught</a>
+                    <a class="nav-link-login" href="../recentlyCaught.php"><i class="fa-solid fa-sailboat"></i> Recently Caught</a>
                     <a class="nav-link-login" href="../login.php"><i class="fa-solid fa-user-plus"></i> Login</a>
                 </li>
             </ul>
