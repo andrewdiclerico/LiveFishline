@@ -206,7 +206,7 @@ class profile{
         $results = [];
         $profilesTable = $this->profilesData;
 
-        $stmt = $profilesTable->prepare("SELECT * FROM users ORDER BY create_date"); 
+        $stmt = $profilesTable->prepare("SELECT * FROM fishline.users ORDER BY create_date"); 
         
         if ( $stmt->execute() && $stmt->rowCount() > 0 ) {
             $results = $stmt->fetchAll(PDO::FETCH_ASSOC);       
@@ -217,7 +217,7 @@ class profile{
     
         $results = [];
         $profilesTable = $this->profilesData;
-        $stmt = $profilesTable->prepare("SELECT * FROM users WHERE username = :username"); 
+        $stmt = $profilesTable->prepare("SELECT * FROM fishlineusers WHERE username = :username"); 
         $stmt->bindValue(':username', $username);
 
         if ( $stmt->execute() && $stmt->rowCount() > 0 ) {
@@ -231,7 +231,7 @@ class profile{
         $profilesTable = $this->profilesData;
 
         //Connecting to the datatble
-        $stmt = $profilesTable->prepare("INSERT INTO users SET userphoto = :userphoto, names = :names, state = :state, bio = :bio");
+        $stmt = $profilesTable->prepare("INSERT INTO fishline.users SET userphoto = :userphoto, names = :names, state = :state, bio = :bio");
 
         //array for each fields
         $binds = array(
@@ -253,7 +253,7 @@ class profile{
             $profilesTable = $this->profilesData;
     
             //Connecting to the database
-            $stmt = $profilesTable->prepare("UPDATE users SET name = :name, state = :state, bio = :bio WHERE username = :username");
+            $stmt = $profilesTable->prepare("UPDATE fishline.users SET name = :name, state = :state, bio = :bio WHERE username = :username");
     
             //arrays for each fields
             $binds = array(
