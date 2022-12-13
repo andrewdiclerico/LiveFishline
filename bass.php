@@ -223,15 +223,15 @@
 
                 include_once __DIR__ . '../db.php';
                 
-                $sql = "SELECT * FROM fishline.addfish WHERE species = 'Bass'";
+                $sql = "SELECT * FROM addfish WHERE species = 'Bass'";
                 $res = mysqli_query($con, $sql);
                 $rel = "";
-                if ($row['released'] = 1){
-                    $rel = "Yes";
-                }
-                else{
-                    $rel = "No";
-                }
+                // if ($row['released'] = 1){
+                    // $rel = "Yes";
+                // }
+                // else{
+                    // $rel = "No";
+                // }
                 while ($rom = mysqli_fetch_assoc($res))
                 {
                     echo
@@ -254,7 +254,7 @@
                             "<div class='item4' style='background-color:#EAE7E7; float:left;'>" .
                                 "<div style='text-align:left;'> 
                                     <b>Location</b>: " . $rom['locations'] . "<br />" . "
-                                    <b>Released</b>: " . $rel .
+                                    <b>Released</b>: " . $rom['released'] .
                                 "</div>" . 
                             "</div>" .
                             "<div class='item5' style='background-color:#EAE7E7; float:left;'>" .
