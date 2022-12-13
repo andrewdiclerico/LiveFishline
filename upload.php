@@ -8,13 +8,13 @@ include('db.php');
 if (isset ($_FILES['fileToUpload'])) 
     {
         $tempName = $_FILES['fileToUpload']['tmp_name'];
-        $path = getcwd() .DIRECTORY_SEPARATOR . 'Images';
+        $path = getcwd() .DIRECTORY_SEPARATOR . 'images';
         $new_name = $path . DIRECTORY_SEPARATOR . $_FILES['fileToUpload']['name'];
         move_uploaded_file($tempName, $new_name);
 
         $fishImages = $_FILES['fileToUpload']['name'];
         //set insert statement
-        $query = "UPDATE localcapstone_sum22.users SET userphoto = '$fishImages' WHERE username = '$username'";
+        $query = "UPDATE fishline.users SET userphoto = '$fishImages' WHERE username = '$username'";
         $result = mysqli_query($con, $query);
 
         header("Location: myProfile.php");
