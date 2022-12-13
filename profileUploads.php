@@ -1,6 +1,6 @@
 <?php
 
-    include("session.php");
+    include('session.php');
     include('db.php');
     //all the field names
     include_once __DIR__ . "/models/models_fish.php";
