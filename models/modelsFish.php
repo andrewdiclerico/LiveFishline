@@ -217,7 +217,7 @@ class profile{
     
         $results = [];
         $profilesTable = $this->profilesData;
-        $stmt = $profilesTable->prepare("SELECT * FROM fishlineusers WHERE username = :username"); 
+        $stmt = $profilesTable->prepare("SELECT * FROM fishline.users WHERE username = :username"); 
         $stmt->bindValue(':username', $username);
 
         if ( $stmt->execute() && $stmt->rowCount() > 0 ) {
