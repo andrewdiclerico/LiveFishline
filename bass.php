@@ -224,6 +224,11 @@
                 include_once __DIR__ . '../db.php';
                 $configFile = __DIR__ . '/models/dbconfig.ini';
 
+                $fish = [];
+
+                $fish = $addfishDatabase->getspecies();
+
+
                 
                 $sql = "SELECT * FROM addfish WHERE species = 'Bass'";
                 $res = mysqli_query($con, $sql);
@@ -234,7 +239,7 @@
                 // else{
                     // $rel = "No";
                 // }
-                while ($rom = mysqli_fetch_assoc($res))
+                foreach ($fish as $rom)
                 {
                     echo
                         "<div class='grid-container' style='background-color:white;'>" .
