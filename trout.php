@@ -212,7 +212,7 @@
                 $sql = "SELECT username FROM users;";
                 $result = mysqli_query($con, $sql);
                 $row = mysqli_fetch_assoc($result);
-                $sql = "SELECT username, species, fishlength, fishweight, locations, released, notes, images FROM addfish WHERE species = 'Trout'";
+                $sql = "SELECT * FROM fishline.addfish WHERE species = 'Trout'";
                 $res = mysqli_query($con, $sql);
                 $rel = "";                
 
@@ -265,9 +265,7 @@
                 }
             ?>
         </div>     
-        
-        
-        
+                
         <br />
         <br />
         <br />
