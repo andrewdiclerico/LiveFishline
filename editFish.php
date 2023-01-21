@@ -117,7 +117,7 @@
         //include databse connection file (db.php)
         include_once __DIR__ . '/db.php';
 
-        $sql = "SELECT fishID, username, species, fishlength, fishweight, locations, released, notes, images FROM localcapstone_sum22.addfish WHERE fishID = '$fishID'";
+        $sql = "SELECT fishID, username, species, fishlength, fishweight, locations, released, notes, images FROM addfish WHERE fishID = '$fishID'";
 
         $res = mysqli_query($con, $sql);
 

@@ -414,7 +414,7 @@
                     </div>
                 </div>" . 
                 "<div class='item2' style='background-color:#EAE7E7; padding-bottom:10px;'>" . 
-                    "<div>" . "<img style='width:180px; height:80px;' src='/images/" . $row['images'] . "' style='width: 180px;'></div>
+                    "<div>" . "<img style='width:180px; height:80px;' src='images/" . $row['images'] . "' style='width: 180px;'></div>
                 </div>" . 
                 "<div class='item3' style='background-color:#EAE7E7;'>
                     <div style='text-align:left;'>

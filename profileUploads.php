@@ -3,7 +3,7 @@
     include('session.php');
     include('db.php');
     //all the field names
-    include_once __DIR__ . "/models/models_fish.php";
+    include_once __DIR__ . "/models/modelsFish.php";
     include __DIR__ . '/include/functions.php';
     $configFile = __DIR__ . '/models/dbconfig.ini';
     try 
@@ -205,7 +205,7 @@
     <br>
     
     <!-- form to get user inputs -->
-    <form class="form" action="profile_uploads.php" style="padding-bottom:25px;" method="post" enctype="multipart/form-data">
+    <form class="form" action="profileUploads.php" style="padding-bottom:25px;" method="post" enctype="multipart/form-data">
 
         <input type="hidden" id='action'  name='action' value=<?php echo $action; ?>>
         <input type="hidden" id='username' name='username' value=<?php echo $username; ?>>
