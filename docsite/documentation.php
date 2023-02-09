@@ -138,7 +138,7 @@
 
         <div style="margin-left:10%; margin-right:10%; background-color:#E3DFDE;">
         
-            <p>Copy of <b>PowerPoint</b> presentation.</p>
+            <p>Copy of our <b>PowerPoint</b> presentation.</p>
         
             <br />
         
