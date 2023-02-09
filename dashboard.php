@@ -17,7 +17,7 @@ include("session.php");
 </head>
 <body style="background-color:#3E4144">
     <div class="form">
-        <p>Hey, <?php echo $_SESSION['username']; ?>!</p>
+        <p>Hello, <?php echo $_SESSION['username']; ?>!</p>
         <p>Do you want to logout?<p>
         <p><a href="logout.php">Logout</a></p>
         <p><a href="myProfile.php">Back to Profile</a></p>
