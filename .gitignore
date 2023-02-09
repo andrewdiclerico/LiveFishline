@@ -23,3 +23,10 @@
 /app/Config/core.php
 /app/Config/database.php
 /vendors/*
+
+# myFiles
+
+db.php
+
+models/dbconfig.ini
+models/createTable.sql
